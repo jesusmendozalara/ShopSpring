@@ -16,7 +16,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import com.jesus.ShopSpring.model.Buy;
 import com.jesus.ShopSpring.model.Item;
-import com.jesus.ShopSpring.repositorie.BuyRepository;
+import com.jesus.ShopSpring.repository.BuyRepository;
 import com.jesus.ShopSpring.service.BuyServiceImpl;
 
 @RunWith(SpringRunner.class)

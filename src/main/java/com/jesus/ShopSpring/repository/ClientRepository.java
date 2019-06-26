@@ -1,4 +1,4 @@
-package com.jesus.ShopSpring.repositorie;
+package com.jesus.ShopSpring.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

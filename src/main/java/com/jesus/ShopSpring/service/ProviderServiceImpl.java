@@ -7,8 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.jesus.ShopSpring.model.Provider;
+import com.jesus.ShopSpring.repository.ProviderRepository;
 import com.jesus.ShopSpring.model.Item;
-import com.jesus.ShopSpring.repositorie.ProviderRepository;
 
 @Service
 public class ProviderServiceImpl implements ProviderService {

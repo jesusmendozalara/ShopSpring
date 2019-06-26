@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.jesus.ShopSpring.model.Shop;
-import com.jesus.ShopSpring.repositorie.ShopRepository;
+import com.jesus.ShopSpring.repository.ShopRepository;
 
 @Service
 public class ShopServiceImpl implements ShopService{

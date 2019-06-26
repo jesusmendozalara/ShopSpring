@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.jesus.ShopSpring.model.Client;
-import com.jesus.ShopSpring.repositorie.ClientRepository;
+import com.jesus.ShopSpring.repository.ClientRepository;
 
 @Service
 public class ClientServiceImpl implements ClientService {
