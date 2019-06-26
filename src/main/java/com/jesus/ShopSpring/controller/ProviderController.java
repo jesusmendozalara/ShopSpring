@@ -29,7 +29,7 @@ public class ProviderController {
 	ProviderService providerService;
 
 	/**
-	 * Creates a new Provider and return it
+	 * Creates a new provider and return it
 	 * @param dto
 	 * @return
 	 */
