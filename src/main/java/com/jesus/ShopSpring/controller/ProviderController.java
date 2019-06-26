@@ -49,6 +49,11 @@ public class ProviderController {
 		return providers.stream().map(mapperServiceProviderImpl::mapToDto).collect(Collectors.toList());
 	}
 
+	/**
+	 * Returns the provider if exists
+	 * @param idProvider
+	 * @return
+	 */
 	@GetMapping("/{idProvider}")
 	public ResponseEntity<ProviderDTO> get(@PathVariable("idProvider") Integer idProvider) {
 		Optional<Provider> dto = providerService.get(idProvider);
