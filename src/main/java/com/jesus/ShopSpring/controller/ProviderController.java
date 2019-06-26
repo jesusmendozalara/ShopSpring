@@ -39,6 +39,10 @@ public class ProviderController {
 		return ResponseEntity.ok(mapperServiceProviderImpl.mapToDto(providerService.create(entity)));
 	}
 
+	/**
+	 * Returns the list of providers
+	 * @return
+	 */
 	@GetMapping
 	public List<ProviderDTO> getAll() {
 		List<Provider> providers = providerService.getAll();
