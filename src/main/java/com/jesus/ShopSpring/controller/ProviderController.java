@@ -64,6 +64,11 @@ public class ProviderController {
 		}
 	}
 
+	/** 
+	 * Updates a provider
+	 * @param dto
+	 * @return
+	 */
 	@PutMapping
 	public ResponseEntity<?> update(@RequestBody ProviderDTO dto) {
 		providerService.update(mapperServiceProviderImpl.mapToEntity(dto));
